@@ -1,0 +1,11 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Button > matches snapshot 1`] = `
+<DocumentFragment>
+  <button
+    class="flex justify-center items-center w-full h-12 rounded-[5px] hover:bg-light-strong-cyan text-primary hover:text-very-dark-cyan disabled:text-white disabled:bg-very-dark-cyan text-white bg-very-dark-cyan"
+  >
+    snapshot test
+  </button>
+</DocumentFragment>
+`;
