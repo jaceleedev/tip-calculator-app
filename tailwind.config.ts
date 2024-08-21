@@ -43,7 +43,14 @@ const config: Config = {
           fontWeight: '700',
           lineHeight: '1.5',
         },
-        '.text-label': {
+        '.text-title': {
+          fontFamily: 'var(--font-space-mono)',
+          fontSize: '16px',
+          fontStyle: 'normal',
+          fontWeight: '700',
+          lineHeight: '1.5',
+        },
+        '.text-error': {
           fontFamily: 'var(--font-space-mono)',
           fontSize: '16px',
           fontStyle: 'normal',
