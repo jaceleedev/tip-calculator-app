@@ -1,0 +1,16 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Input > matches snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="relative"
+  >
+    <input
+      class="flex items-center text-primary text-very-dark-cyan text-right w-full h-12 pr-[17px] rounded-[5px] border-2 border-solid border-transparent outline-none bg-very-light-grayish-cyan placeholder:text-medium-dark-grayish-cyan focus:border-strong-cyan caret-strong-cyan"
+      id="snapshot"
+      placeholder="snapshot test"
+      type="text"
+    />
+  </div>
+</DocumentFragment>
+`;
