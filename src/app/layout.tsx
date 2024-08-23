@@ -101,7 +101,7 @@ export default function RootLayout({
       <body
         className={`flex flex-col items-center w-screen pt-[50px] bg-light-grayish-cyan ${spaceMono.variable} lg:pt-[163px]`}
       >
-        <div className="flex justify-center mb-[40.86px] lg:mb-[87.86]">
+        <div className="flex justify-center mb-[40.86px] lg:mb-[87.86px]">
           <Logo />
         </div>
         {children}
