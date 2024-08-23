@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import { Space_Mono } from 'next/font/google';
 import './globals.css';
+import Logo from '@/components/TipCalculator/Logo';
 
 const spaceMono = Space_Mono({
   subsets: ['latin'],
@@ -22,7 +23,14 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${spaceMono.variable}`}>{children}</body>
+      <body
+        className={`flex flex-col items-center w-screen pt-[50px] bg-light-grayish-cyan ${spaceMono.variable} lg:pt-[163px]`}
+      >
+        <div className="flex justify-center mb-[40.86px] lg:mb-[87.86]">
+          <Logo />
+        </div>
+        {children}
+      </body>
     </html>
   );
 }
