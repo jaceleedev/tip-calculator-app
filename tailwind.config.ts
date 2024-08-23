@@ -71,6 +71,11 @@ const config: Config = {
           fontWeight: '700',
           lineHeight: '47px',
           letterSpacing: '-0.667px',
+          '@screen lg': {
+            fontSize: '48px',
+            lineHeight: '71px',
+            letterSpacing: '-1px',
+          },
         },
       };
 

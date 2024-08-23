@@ -51,6 +51,7 @@ function InputIcon({ iconConfig }: Readonly<{ iconConfig: IconConfig }>) {
         alt=""
         width={iconConfig.width}
         height={iconConfig.height}
+        priority
       />
     </div>
   );

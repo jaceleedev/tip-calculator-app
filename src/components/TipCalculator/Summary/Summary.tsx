@@ -19,7 +19,9 @@ function SummaryItem({
   marginBottom = 'mb-5',
 }: SummaryItemProps) {
   return (
-    <div className={`flex justify-between items-center h-12 ${marginBottom}`}>
+    <div
+      className={`flex justify-between items-center h-12 ${marginBottom} lg:h-[71px]`}
+    >
       <div>
         <p className="text-title text-white">{label}</p>
         <p className="text-caption text-grayish-cyan">/ person</p>
@@ -36,9 +38,17 @@ function Summary({
   isResetDisabled,
 }: SummaryProps) {
   return (
-    <section className="w-full pt-[37px] px-[23px] pb-6 rounded-[15px] bg-very-dark-cyan">
-      <SummaryItem label="Tip Amount" value={tipAmount} />
-      <SummaryItem label="Total" value={totalPerPerson} marginBottom="mb-8" />
+    <section className="w-full pt-[37px] px-[23px] pb-6 rounded-[15px] bg-very-dark-cyan lg:w-[413px] lg:p-10">
+      <SummaryItem
+        label="Tip Amount"
+        value={tipAmount}
+        marginBottom="mb-[25px]"
+      />
+      <SummaryItem
+        label="Total"
+        value={totalPerPerson}
+        marginBottom="mb-[122px]"
+      />
       <Button
         label="RESET"
         variant="secondary"

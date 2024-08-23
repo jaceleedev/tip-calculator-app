@@ -33,7 +33,7 @@ function SelectTip({ value, onChange }: Readonly<SelectTipProps>) {
   return (
     <div>
       <p className="text-title text-dark-grayish-cyan mb-4">Select Tip %</p>
-      <div className="grid grid-cols-2 grid-rows-3 gap-x-[16.56px] gap-y-4">
+      <div className="grid grid-cols-2 grid-rows-3 gap-x-[16.56px] gap-y-4 lg:grid-cols-3 lg:grid-rows-2 lg:gap-x-[14px]">
         {['5', '10', '15', '25', '30'].map((tip) => (
           <Button
             key={tip}

@@ -56,9 +56,9 @@ function TipCalculator() {
   }, []);
 
   return (
-    <article className="flex flex-col items-center w-[375px] px-6 py-8 rounded-[25px] bg-white shadow-[0_32px_43px_0_rgba(79,166,175,0.20)]">
+    <article className="flex flex-col items-center w-[375px] px-6 py-8 rounded-[25px] bg-white shadow-[0_32px_43px_0_rgba(79,166,175,0.20)] lg:flex-row lg:w-[920px] lg:p-8 lg:pl-12">
       <h1 className="sr-only">Tip Calculator App</h1>
-      <div className="flex flex-col gap-y-8 px-2 mb-8">
+      <div className="flex flex-col gap-y-8 px-2 mb-8 lg:w-[379px] lg:gap-y-10 lg:px-0 lg:mt-[13px] lg:mb-4 lg:mr-12">
         <BillInput value={bill} onChange={setBill} />
         <SelectTip value={tipPercentage} onChange={setTipPercentage} />
         <PeopleInput value={peopleCount} onChange={setPeopleCount} />
